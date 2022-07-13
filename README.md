@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# Create, Read, Update, and Delete using solidity
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project was done with hardhat. The contract creates a User struct and perform crud operations on it.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The contract is tested, and then deployed to local network or rinkeby. The contract once deployed to rinkeby, is automatically verified
